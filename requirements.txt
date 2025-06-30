@@ -1,0 +1,22 @@
+# Network automation
+paramiko>=2.11.0
+netmiko>=4.1.0
+napalm>=4.0.0
+
+# Testing and validation
+pytest>=7.2.0
+pytest-cov>=4.0.0
+
+# Data processing
+pandas>=1.5.0
+numpy>=1.24.0
+jinja2>=3.1.0
+
+# Visualization
+matplotlib>=3.6.0
+plotly>=5.11.0
+
+# Utilities
+pyyaml>=6.0
+click>=8.1.0
+rich>=13.0.0

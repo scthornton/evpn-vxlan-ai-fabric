@@ -1,1 +1,55 @@
-{}
+{
+"name": "AI-DC-EVPN-Lab",
+"devices": [
+{
+"name": "spine1",
+"type": "spine",
+"mgmt_ip": "192.168.200.11",
+"loopback_ip": "10.0.0.1",
+"asn": 65001
+},
+{
+"name": "spine2",
+"type": "spine",
+"mgmt_ip": "192.168.200.12",
+"loopback_ip": "10.0.0.2",
+"asn": 65002
+},
+{
+"name": "leaf1",
+"type": "leaf",
+"mgmt_ip": "192.168.200.21",
+"loopback_ip": "10.0.0.11",
+"asn": 65011
+},
+{
+"name": "leaf2",
+"type": "leaf",
+"mgmt_ip": "192.168.200.22",
+"loopback_ip": "10.0.0.12",
+"asn": 65012
+}
+],
+"hosts": [
+{
+"name": "gpu1",
+"mgmt_ip": "192.168.200.31",
+"data_ip": "192.168.10.1"
+},
+{
+"name": "gpu2",
+"mgmt_ip": "192.168.200.32",
+"data_ip": "192.168.10.2"
+}
+],
+"links": [
+{
+"source": "spine1",
+"source_interface": "swp1",
+"source_ip": "10.1.1.0/31",
+"destination": "leaf1",
+"destination_interface": "swp1",
+"destination_ip": "10.1.1.1/31"
+}
+]
+}
