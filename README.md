@@ -376,7 +376,7 @@ Contributions are welcome! Please feel free to submit issues, fork the repositor
 
 - LinkedIn: [@scthornton](https://www.linkedin.com/in/scthornton/)
 - GitHub: [@scthornton](https://github.com/scthornton)
-- Blog: [EVPN-VxLAN](https://scthornton.github.io/networking/ai-ml/2024/11/15/evpn-vxlan-blog-post.html)
+- Blog: [EVPN-VxLAN](https://scthornton.github.io/networking/ai-ml/2025/05/01/evpn-vxlan-blog-post.html)
 
 ### Background
 Senior Infrastructure & Security Architect with 20+ years of experience in enterprise networking. Currently focused on AI infrastructure and security at Palo Alto Networks. Recent certifications include NVIDIA InfiniBand, RDMA Programming, and AI Infrastructure Operations.
